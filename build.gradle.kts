@@ -4,6 +4,7 @@ plugins {
     groovy
     jacoco
     `maven-publish`
+    id("org.sonarqube") version "4.4.1.3373"
     id("com.gradle.plugin-publish") version "0.21.0"
     id("com.jfrog.artifactory") version "4.24.23"
     id("com.github.hierynomus.license") version "0.16.1"
